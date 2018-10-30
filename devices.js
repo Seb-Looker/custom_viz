@@ -118,8 +118,8 @@ looker.plugins.visualizations.add({
     if (!this.handleErrors(data, resp)) return; // Check for errors!
 
     // Height and Width
-    h = $(element).height();
-    w = $(element).width();
+    h = element.height();
+    w = element.width();
 
     var graphSettings = {
       deviceBGImgPath: [
